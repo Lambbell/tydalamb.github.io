@@ -2,75 +2,26 @@
 nav.navbar {
 	text-align: right;
   background-color: #0084AA;
-  /*position: -webkit-sticky;*/
   position: sticky;
   z-index:5;
-  top:0px;}
+  top:0px;
+  height: 10%}
   nav.navbar img.navbar-brand {
     width: 90px;
     height: auto; }
-  nav.navbar button.navbar-toggler .navbar-toggler-icon i.fa-bars {
-    color: white; }
-    nav.navbar button.navbar-toggler .navbar-toggler-icon i.fa-bars:hover {
-      color: black; }
   nav.navbar .navbar-collapse ul li.nav-item a.nav-link {
-    color: white; }
-    nav.navbar .navbar-collapse ul li.nav-item a.nav-link:hover {
-      color: black; }
-  nav.navbar .navbar-collapse ul li.nav-item button {
-    padding: 0;
-    padding-right: 5px;
-    font-size: 0.8rem; }
+      color: white; }
+  nav.navbar .navbar-collapse ul li.nav-item a.nav-link:hover {
+        color: black; }
   
-  
-
-  
-  nav.navbar img.navbar-brand {
-    width: 90px;
-    height: auto; }
-
 .bottom-nav{
       height: 10px;
       background-color: #54b5cf;
-      top: 116px;
+      top: 13%;
       z-index: 4;
       position: sticky;
     }
   
-/*
-
-  #navbar {
-    overflow: hidden;
-    background-color: #0084AA;
-  }
-  
-  
-  #navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  
-  .content {
-    padding: 16px;
-  }
-  
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-
-  .sticky + .content {
-    padding-top: 60px;
-  }
-*/
 .header-img {
   width: 100%;
   height: auto;
@@ -274,7 +225,5 @@ iframe {
   .right {
     box-align: right;
     width:60px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
   }
-
-/*# sourceMappingURL=main.css.map */
