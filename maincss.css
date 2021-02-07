@@ -5,7 +5,9 @@ nav.navbar {
   position: sticky;
   z-index:5;
   top:0px;
-  height: 10%}
+  height: 10%;
+  display: block;
+}
   nav.navbar img.navbar-brand {
     width: 90px;
     height: auto; }
